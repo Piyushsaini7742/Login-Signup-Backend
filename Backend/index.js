@@ -1,7 +1,7 @@
 
 require('dotenv').config();
 const express = require('express');
-const db = require('./Config/db');
+const db = require('./config/db');
 const cors = require('cors');
 const User = require('./models/userModel');
 const bcrypt = require("bcrypt");
